@@ -11,6 +11,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size:cover;
+  margin-bottom: 40px;
 }
 
 .App-logo {
@@ -41,13 +42,34 @@ font-size: 30px;
   padding-right: 20%;
   padding-left: 20%;
 }
-.row > div > h1 {
+.header {
   font-size: 22px;
   font-weight: bold;
   color: #5c5c5c;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-.row > div > p {
-  text-indent: 5em;
+img {
+  border-radius: 50%;
+  padding-top: 50px;
+}
+.team-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.team-subheader {
+  color: dimgrey;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.team-statement {
+  text-indent: 2em;
+}
+.mission-statement {
+  text-indent: 5em
+}
+
+.dark {
+  background-color: #f0f0f0;
 }
