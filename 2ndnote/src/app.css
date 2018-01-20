@@ -34,3 +34,20 @@ font-size: 30px;
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.row {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+.row > div > h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #5c5c5c;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.row > div > p {
+  text-indent: 5em;
+}
