@@ -5,7 +5,7 @@ import './app.css';
 class App extends Component {
   render() {
     return (
-    <div class = "container-fluid">
+    <div class = "container-fluid white" id = "mission">
       <div class="row">
         <div>
           <h1 class = "header"><center>Our Mission</center></h1>

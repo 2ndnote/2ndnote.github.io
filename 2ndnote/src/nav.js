@@ -6,7 +6,7 @@ import './nav.css';
 class App extends Component {
   render() {
     return (
-    <div class="container">
+    <div class="container nav" id = "menu">
       <div class="navbar-header">
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon icon-bar"></span>

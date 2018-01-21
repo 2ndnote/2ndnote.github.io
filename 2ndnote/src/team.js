@@ -7,7 +7,7 @@ import emily from './img/emily.png'
 class App extends Component {
   render() {
     return (
-    <div class="container-fluid dark">
+    <div class="container-fluid" id = "team">
       <div class="row">
         <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
           <h1 class = "header">About Us</h1>

@@ -30,24 +30,14 @@ hr {
   width: 120px;
 }
 
-#menu, #gallery {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-#menu, #contact {
-  background: #f0f0f0;
-}
- #mission, #team {
-  background:#f0f0f0;
-  padding-top: 50px;
-  padding-bottom: 50px;
- }
-
-#team {
+#menu, #team {
   background:#ffffff;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
+
+#mission, #contact {
+  background:#f0f0f0;
+}
+
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
@@ -103,7 +93,7 @@ hr {
 
 
 .container {
-    position: absolute;
+    position: fixed;
       top: 0;
       z-index: 209324;
     left: 0;
@@ -193,11 +183,6 @@ hr {
   padding-top: 24px;
 }
 
-/* contact section */
-#contact {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
 #contact .col-md-8 {
   margin-bottom: 32px;
 }
@@ -261,44 +246,12 @@ footer .fa {
   padding-right: 10px;
 }
 
-/* social icon */
-.social-icon {
-  padding: 0;
-}
-.social-icon li {
-  list-style: none;
-  display: inline-block;
-  padding: 0;
-}
-.social-icon li a {
-  background: #f0f0f0;
-  border-radius: 50%;
-  color: #5C5C5C;
-  font-size: 16px;
-  width: 48px;
-  height: 48px;
-  line-height: 48px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
-  margin-top: 12px;
-  margin-right: 16px;
-  top: 0;
-  position: relative;
-  padding: 0;
-}
-.social-icon li a:hover {
-  background: #F6D76B;
-  top: 5px;
-}
-
 /* copyright section */
 #copyright {
   background: #343434;
   color: #ffffff;
-  padding-top: 80px;
-  padding-bottom: 80px;
   text-align: center;
+  padding: 10px;
 }
 #copyright p {
   color: #ffffff;
